@@ -1,16 +1,46 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 header {
     background-color: red;
-    padding: 25px;
+    padding: 45px;
+    margin-left: 0;
     width: 100%;
     top: 0;
     left: 0;
-    position:fixed;
 }
 
 .texto-centralizado {
     text-align: center;
+}
+
+main {
+    margin: 40px;
+    overflow: hidden;
+    align-content:center;
+}
+
+.card {
+    width: 100px;
+    height: 200px;
+    background-color: rebeccapurple;
+    margin: 100px;
+    float: none;
+    display: inline-block;
+
+}
+
+footer {
+    background-color: blue;
+    padding: 30px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
