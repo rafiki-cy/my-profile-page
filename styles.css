@@ -1,0 +1,16 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: red;
+    padding: 25px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position:fixed;
+}
+
+.texto-centralizado {
+    text-align: center;
+}
