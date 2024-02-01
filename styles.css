@@ -9,7 +9,7 @@ body {
 
 header {
     background-color: red;
-    padding: 45px;
+    padding: 25px;
     margin-left: 0;
     width: 100%;
     top: 0;
@@ -24,6 +24,7 @@ main {
     margin: 40px;
     overflow: hidden;
     align-content:center;
+    width: 100%
 }
 
 .card {
