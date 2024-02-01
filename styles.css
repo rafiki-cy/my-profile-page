@@ -22,19 +22,20 @@ header {
 
 main {
     margin: 40px;
-    overflow: hidden;
-    align-content:center;
-    width: 100%
+    width: 100%;
+}
+
+.box-content {
+    display: flex;
 }
 
 .card {
-    width: 100px;
-    height: 200px;
-    background-color: rebeccapurple;
-    margin: 100px;
-    float: none;
-    display: inline-block;
-
+    background: black;
+    border: 2px solid red;
+    border-radius: 10px;
+    margin: 40px;
+    width: 400px;
+    height: 400px;
 }
 
 footer {
