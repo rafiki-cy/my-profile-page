@@ -7,7 +7,7 @@ body {
     padding: 0;
     background-image: url("img/cinza.jpg");
     background-size: cover;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 header {
@@ -27,7 +27,7 @@ h1 {
     text-align: center;
 }
 
-main {
+section {
     margin: 40px;
     width: 100%;
     
@@ -48,12 +48,17 @@ main {
     opacity: 0.5;
 }
 
+.card:hover {
+    transform: scale(1.1)
+  }
+
 footer {
     background-color: rgb(128, 128, 128);
     padding: 30px;
     width: 100%;
-    position: fixed;
     bottom: 0;
     left: 0;
     opacity: 0.5;
+    display: flex;
+    justify-content: space-between;
 }
