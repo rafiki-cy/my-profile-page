@@ -21,6 +21,7 @@ header {
 
 h1 {
     color: rgb(31, 31, 31);
+    overflow: hidden;
 }
 
 .texto-centralizado {
