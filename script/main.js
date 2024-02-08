@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Declarção de váriaveis com textos a serem exibidos
     const h1Texto = "Bem-vindo à minha página by Rafiki Dias";
-    const introTexto = " Escolha entre Perfil Pessoal ou Perfil Profissional para visualizar as informações relevantes.";
+    const introTexto = " Escolha entre Perfil Pessoal (card branco) ou Perfil Profissional (card preto) para visualizar as informações relevantes.";
     
     // Seleção dos elementos do HTML no DOM
     const h1Elemento = document.querySelector('h1');
