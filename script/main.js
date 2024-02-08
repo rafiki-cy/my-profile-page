@@ -3,11 +3,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Declarção de váriaveis com textos a serem exibidos
     const h1Texto = "Bem-vindo à minha página by Rafiki Dias";
-    const introTexto = "Antes de tudo, é necessário que decida qual dos meus perfis deseja acessar:";
+    const introTexto = " Escolha entre Perfil Pessoal ou Perfil Profissional para visualizar as informações relevantes.";
     
     // Seleção dos elementos do HTML no DOM
     const h1Elemento = document.querySelector('h1');
-    const introP = document.getElementById('intro-p');
+    const textoCentralizado = document.getElementById('textoCentralizado');
     
     // Função para animar a digitação gradual de texto em um elemento
     function typeText(text, element, delay = 100) {
@@ -33,6 +33,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Aguarda o término da digitação no cabeçalho e, em seguida, inicia a digitação da introdução (40 milissegundos de atraso entre as letras)
     setTimeout(function () {
-      typeText(introTexto, introP, 40);
+      typeText(introTexto, textoCentralizado, 40);
     }, h1Texto.length * 100);
   });

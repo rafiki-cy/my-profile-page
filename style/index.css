@@ -1,0 +1,65 @@
+header {
+    background-color: rgba(128, 128, 128, 0.5);;
+    padding: 25px;
+    margin-left: 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+h1 {
+    color: rgb(31, 31, 31);
+    overflow: hidden;
+    text-align: center;
+}
+
+#textoCentralizado {
+    text-align: center;
+}
+
+section {
+    margin: 40px;
+    width: 100%;
+    
+}
+
+.box-content {
+    display: flex;
+    justify-content: center;
+}
+
+.card1 {
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 40px;
+    width: 400px;
+    height: 400px;
+    opacity: 0.5;
+}
+
+.card2 {
+    background: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 40px;
+    width: 400px;
+    height: 400px;
+    opacity: 0.5;
+}
+
+.card:hover {
+    transform: scale(1.1)
+  }
+
+footer {
+    background-color: rgb(128, 128, 128);
+    padding: 30px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    opacity: 0.5;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+}
