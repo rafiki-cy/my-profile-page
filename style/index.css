@@ -97,6 +97,8 @@ h2 {
     padding: 50px;
     text-align: center;
     font-weight: bolder;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 footer {
@@ -113,5 +115,5 @@ footer p {
 main {
     background-color: black;
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
