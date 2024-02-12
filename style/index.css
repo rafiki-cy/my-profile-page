@@ -6,7 +6,12 @@ body {
     flex-direction: column;
     align-items: center; 
     justify-content: space-between;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
 }
+      
 
 header {
     text-align: center;
@@ -103,4 +108,10 @@ footer {
 footer p {
     color: white;
     margin-left: 20px;
+}
+
+main {
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
 }
