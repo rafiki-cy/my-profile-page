@@ -5,7 +5,5 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("../img/cinza.jpg");
-    background-size: cover;
     overflow-x: hidden;
 }

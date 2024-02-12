@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Declarção de váriaveis com textos a serem exibidos
     const h1Texto = "Bem-vindo à minha página by Rafiki Dias";
-    const introTexto = " Escolha entre Perfil Pessoal (card branco) ou Perfil Profissional (card preto) para visualizar as informações relevantes.";
     
     // Seleção dos elementos do HTML no DOM
     const h1Elemento = document.querySelector('h1');
@@ -29,10 +28,5 @@ document.addEventListener('DOMContentLoaded', function () {
       type();
     }
     // Digitação do texto do cabeçalho (número referente à velocidade da digitação)
-    typeText(h1Texto, h1Elemento, 70);
-
-    // Aguarda o término da digitação no cabeçalho e, em seguida, inicia a digitação da introdução (40 milissegundos de atraso entre as letras)
-    setTimeout(function () {
-      typeText(introTexto, textoCentralizado, 40);
-    }, h1Texto.length * 100);
+    typeText(h1Texto, h1Elemento, 70);   
   });

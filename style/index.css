@@ -1,69 +1,96 @@
+body {
+    background: rgb(255, 255, 255);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Empilha os elementos verticalmente */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: space-between; /* Distribui o espaço entre os elementos */
+}
+
 header {
-    background-color: rgba(128, 128, 128, 0.5);;
+    background: rgb(0, 0, 0);
     padding: 25px;
-    margin-left: 0;
     width: 100%;
-    top: 0;
-    left: 0;
+    text-align: center;
 }
 
 h1 {
-    color: rgb(31, 31, 31);
+    color: rgb(255, 255, 255);
     overflow: hidden;
     text-align: center;
+    display: inline-block;
+    margin: 0;
 }
 
-#textoCentralizado {
+h2 {
     text-align: center;
 }
 
-section {
-    margin: 40px;
-    width: 100%;
-    
+.container {
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    margin-top: 0px;
 }
 
 .box-content {
     display: flex;
-    justify-content: center;
+    justify-content: space-between; /* Distribui o espaço entre os cards */
+}
+
+.card1,
+.card2 {
+    border: 2px solid;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    transition: transform 0.3s ease;
+    margin: 0 30px;
 }
 
 .card1 {
-    background: rgb(255, 255, 255);
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 10px;
-    margin: 40px;
-    width: 300px;
-    height: 300px;
-    opacity: 0.5;
+    border-color: rgb(0, 0, 0);
+    background: url(../img/rafikicard1.jpg);
+    background-size: 100% 100%;
+    
 }
 
 .card2 {
-    background: rgb(0, 0, 0);
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 10px;
-    margin: 40px;
-    width: 300px;
-    height: 300px;
-    opacity: 0.5;
+    border-color: rgb(0, 0, 0);
+    background: url(../img/rafikicard2.jpg);
+    background-size: 100% 100%;
 }
 
 .card1:hover {
-    transform: scale(1.1)
-  }
+    transform: scale(1.1);
+}
 
 .card2:hover {
-    transform: scale(1.1)
+    transform: scale(1.1);
+}
+
+.card-names {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .card-name {
+    flex: 1;
+    text-align: center;
   }
 
 footer {
-    background-color: rgb(128, 128, 128);
+    background: rgb(0, 0, 0);
     padding: 30px;
     width: 100%;
-    bottom: 0;
-    left: 0;
-    opacity: 0.5;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 150px;
+}
+
+footer p {
+    color: white;
+    margin-left: 20px;
 }
