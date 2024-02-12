@@ -1,16 +1,25 @@
-header {
-    background-color: rgba(128, 128, 128, 0.5);;
-    padding: 25px;
-    margin-left: 0;
-    width: 100%;
-    top: 0;
-    left: 0;
+body {
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    margin: 0;
+    display: table-row;
+}
+
+header h1 {
+    color: rgb(255, 255, 255);
 }
 
 section {
-    margin: 40px;
-    width: 100%;
-    margin-left: 5%;
-    
+    padding: 20px;
+    margin-left: 0;
 }
-  
+
+.bg-white {
+    background-color: white;
+    color:black
+}
+
+.bg-black {
+    background-color: black;
+    color:white
+}

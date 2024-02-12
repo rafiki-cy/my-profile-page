@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', function () {
 
     // Declarção de váriaveis com textos a serem exibidos
-    const h1Texto = "Bem-vindo à minha página by Rafiki Dias";
+    const h1Texto = "Minha Jornada: Pessoal e Profissional";
     
     // Seleção dos elementos do HTML no DOM
     const h1Elemento = document.querySelector('h1');
