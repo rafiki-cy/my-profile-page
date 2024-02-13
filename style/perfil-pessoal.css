@@ -51,3 +51,16 @@ section {
     margin-bottom: 50px
     
 }
+
+.philosophy-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.philosophy-pillar {
+    width: 30%; /* Ou ajuste conforme necessário para deixar espaço adequado */
+    text-align: center;
+    padding: 20px;
+    border: 1px solid white;
+    margin: 10px;
+}
