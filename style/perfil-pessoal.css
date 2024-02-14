@@ -9,6 +9,25 @@ header h1 {
     color: rgb(255, 255, 255);
 }
 
+header nav a {
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    font-weight: bolder;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    margin: 20px;
+}
+
+header nav a:hover {
+    transform: scale(1.2);
+}
+
 section {
     padding: 20px;
     margin-left: 0;
@@ -65,11 +84,8 @@ section {
     margin: 10px;
 }
 
-.nav-pages {
-    text-align: center;
-}
-
 .nav-pages a {
+    text-align: center;
     text-decoration: none;
     background-color: white;
     color: black;
