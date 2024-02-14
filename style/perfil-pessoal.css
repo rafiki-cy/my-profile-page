@@ -9,7 +9,7 @@ header .nav-header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 20px; /* Ajuste de margem inferior */
+    margin-bottom: 20px;
 }
 
 header .nav-items {
@@ -43,7 +43,7 @@ header .img-header {
 }
 
 header nav a:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
 }
 
 
