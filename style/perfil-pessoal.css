@@ -5,11 +5,21 @@ body {
     display: table-row;
 }
 
-header h1 {
-    color: rgb(255, 255, 255);
+header .nav-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px; /* Ajuste de margem inferior */
 }
 
-header nav a {
+header .nav-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+}
+
+header .nav-items a {
     text-align: center;
     text-decoration: none;
     background-color: black;
@@ -17,20 +27,29 @@ header nav a {
     border: 2px solid white;
     font-weight: bolder;
     box-sizing: border-box;
-    display: inline-block;
-    width: 125px;
+    display: block;
+    width: 150px;
     height: 50px;
     padding: 10px;
-    margin: 15px;
+    margin: 10px;
+}
+
+header .img-header {
+    width: 200px;
+    height: auto;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    align-self: last baseline;
 }
 
 header nav a:hover {
-    transform: scale(1.2);
+    transform: scale(1.5);
 }
 
+
 .img-header {
-    width: 90px;
-    height: 100%;
+    width: 100px;
+    height: auto;
 }
 
 section {
