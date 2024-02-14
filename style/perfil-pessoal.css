@@ -30,7 +30,7 @@ section {
 }
 
 .div-hobbies {
-    margin-right: 2px;
+    margin-right: 8px;
     text-align: center;
 }
 
@@ -58,9 +58,32 @@ section {
 }
 
 .philosophy-pillar {
-    width: 30%; /* Ou ajuste conforme necessário para deixar espaço adequado */
+    width: 30%;
     text-align: center;
     padding: 20px;
     border: 1px solid white;
     margin: 10px;
+}
+
+.nav-pages {
+    text-align: center;
+}
+
+.nav-pages a {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-size: xx-large;
+    border: 2px solid black;
+    font-weight: bolder;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 550px;
+    height: 100px;
+    margin: 20px;
+    padding: 30px;   
+}
+
+.div-hobbies:hover {
+    transform: scale(1.3);
 }
