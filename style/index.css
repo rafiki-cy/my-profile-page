@@ -121,6 +121,6 @@ footer a {
     margin: 8px;
 }
 footer a:hover {
-    color: #000000; /* Cor do texto preta ao passar o mouse */
-    background-color: #ffffff; /* Background branco ao passar o mouse */
+    color: #000000;
+    background-color: #ffffff;
 }
