@@ -2,11 +2,10 @@
 document.addEventListener('DOMContentLoaded', function () {
 
     // Declarção de váriaveis com textos a serem exibidos
-    const h1Texto = "Minha Jornada: Pessoal e Profissional";
+    const h1Texto = "MINHA JORNADA: PESSOAL E PROFISSIONAL";
     
     // Seleção dos elementos do HTML no DOM
     const h1Elemento = document.querySelector('h1');
-    const textoCentralizado = document.getElementById('textoCentralizado');
     
     // Função para animar a digitação gradual de texto em um elemento
     function typeText(text, element, delay = 100) {

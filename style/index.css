@@ -15,14 +15,18 @@ body {
 
 header {
     text-align: center;
+    
 }
 
 h1 {
     color: rgb(255, 255, 255);
+    font-weight: bolder;
     overflow: hidden;
-    text-align: center;
     display: inline-block;
     margin: 0;
+    border: 3px solid white;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5);
 }
 
 .explanation {
@@ -32,16 +36,19 @@ h1 {
     display: flex;
 }
 
-.introtext {
+.introtext {  
     border: 2px solid;
     margin: 20px;
     padding: 40px;
+    box-shadow: 14px 28px 5px rgba(0, 0, 0, 0.1);
 }
 
 main {
     background-color: black;
     color: white;
     margin-bottom: 60px;
+    border: white;
+    box-shadow: 30px 30px 5px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
@@ -108,10 +115,12 @@ footer {
     background: rgb(0, 0, 0);
     padding: 30px;
     width: 100%;
-    margin-left: 30px
+    margin-left: 30px;
 }
 
 footer p {
     color: white;
     margin-left: 20px;
+    
+
 }
