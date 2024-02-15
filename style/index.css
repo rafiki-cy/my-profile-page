@@ -1,5 +1,5 @@
 body {
-    background: rgb(255, 255, 255);
+    background: #ffffff;
     height: 100vh;
     margin: 0;
     display: flex;
@@ -11,22 +11,20 @@ body {
     font-style: normal;
     font-size: larger;
 }
-      
 
 header {
     text-align: center;
-    
 }
 
 h1 {
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     font-weight: bolder;
     overflow: hidden;
     display: inline-block;
     margin: 0;
-    border: 3px solid white;
+    border: 3px solid #ffffff;
     padding: 20px;
-    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5);
+    box-shadow: 5px 5px 10px #ffffff80;
 }
 
 .explanation {
@@ -40,15 +38,15 @@ h1 {
     border: 2px solid;
     margin: 20px;
     padding: 40px;
-    box-shadow: 14px 28px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 14px 28px 5px #0000001a;
 }
 
 main {
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #ffffff;
     margin-bottom: 60px;
-    border: white;
-    box-shadow: 30px 30px 5px rgba(0, 0, 0, 0.1);
+    border: #ffffff;
+    box-shadow: 30px 30px 5px #0000001a;
 }
 
 h2 {
@@ -67,17 +65,18 @@ h2 {
     height: 300px;
     transition: transform 0.3s ease;
     margin: 0 30px;
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5);
 }
 
 .card1 {
-    border-color: rgb(0, 0, 0);
+    border-color: #000000;
     background: url(../img/rafikicard1.jpg);
     background-size: 100% 100%;
     
 }
 
 .card2 {
-    border-color: rgb(0, 0, 0);
+    border-color: #000000;
     background: url(../img/rafikicard2.jpg);
     background-size: 100% 100%;
 }
@@ -102,7 +101,6 @@ h2 {
 .card-names a {
     text-decoration: none;
     color: inherit;
-    transition: color 0.3s ease;
 }
 
 .card-name {
@@ -112,15 +110,17 @@ h2 {
 }
 
 footer {
-    background: rgb(0, 0, 0);
-    padding: 30px;
-    width: 100%;
     margin-left: 30px;
 }
 
-footer p {
-    color: white;
-    margin-left: 20px;
-    
-
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid white;
+    padding: 7px;
+    margin: 8px;
+}
+footer a:hover {
+    color: #000000; /* Cor do texto preta ao passar o mouse */
+    background-color: #ffffff; /* Background branco ao passar o mouse */
 }

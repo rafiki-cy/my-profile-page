@@ -23,13 +23,13 @@ header {
 }
 
 footer {
-    background: rgb(0, 0, 0);
+    background: #000000;
     padding: 30px;
     width: 100%;
 
 }
 
 footer p {
-    color: white;
+    color: #ffffff;
     margin-left: 20px;
 }
