@@ -66,6 +66,10 @@ section {
     color:#ffffff
 }
 
+.historias-links:hoover {
+    cursor: crosshair;
+}
+
 .box-hobbies {
     display: flex;
 }
