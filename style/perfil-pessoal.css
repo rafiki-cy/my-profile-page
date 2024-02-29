@@ -66,8 +66,14 @@ section {
     color:#ffffff
 }
 
-.historias-links:hoover {
-    cursor: crosshair;
+.historias-links {
+    width: 200px;
+	float: left;
+}
+
+#iframe-div {
+    position: relative;
+    overflow: auto;
 }
 
 .box-hobbies {
