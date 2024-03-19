@@ -1,5 +1,5 @@
 body {
-    background: #ffffff;
+    background: #000000;
     height: 100vh;
     margin: 0;
     display: flex;
@@ -7,7 +7,7 @@ body {
     align-items: center; 
     justify-content: space-between;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     font-size: larger;
 }
@@ -17,9 +17,8 @@ header {
 }
 
 h1 {
-    color: #ffffff;
-    font-weight: bolder;
-    overflow: hidden;
+    color:#ffffff;
+
     display: inline-block;
     margin: 0;
     border: 3px solid #ffffff;
@@ -27,24 +26,17 @@ h1 {
     box-shadow: 5px 5px 10px #ffffff80;
 }
 
-.explanation {
-    padding: 50px;
-    text-align: center;
-    font-weight: bolder;
-    display: flex;
+hr {
+    color: #ffffff;
+    width: 100%;
 }
 
-.introtext {  
-    border: 2px solid;
-    margin: 20px;
-    padding: 40px;
-    box-shadow: 14px 28px 5px #00000052;
-}
 
 main {
     background-color: #000000;
     color: #ffffff;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     border: #ffffff;
     box-shadow: 30px 30px 5px #00000052;
 }
@@ -55,6 +47,7 @@ h2 {
 
 .box-content {
     display: flex;
+    animation: pulsar 2s ease infinite;
 }
 
 .card1,
@@ -101,6 +94,7 @@ h2 {
 .card-names a {
     text-decoration: none;
     color: inherit;
+    text-decoration:double;
 }
 
 .card-name {
