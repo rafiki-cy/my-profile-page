@@ -169,3 +169,27 @@ section {
     list-style: none;
 
 }
+
+footer {
+    background: #000000;
+    padding: 30px;
+    width: 100%;
+
+}
+
+footer p {
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid white;
+    padding: 7px;
+    margin: 8px;
+}
+footer a:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
