@@ -10,54 +10,66 @@
 <body>
     <header>
         <h1>Rafiki Dias</h1>
+        <p>Desenvolvedor Fullstack em formação...</p>
     </header>
-    <div id="nav-header">
+
+    <div id="container-nav-page">
         <nav>
-            <ul>
-                <li><a href="index.html">Página Inicial</a></li>
-                <li><a href="#">Educação</a></li>
-                <li><a href="#">Ferramentas</a></li>
-                <li><a href="#">Projetos</a></li>
-                <!-- <li><a href="#">Perfil Pessoal</a></li> -->
+            <ul id="ul-nav-top">
+                <li class="li-nav-top"><a href="index.html">Página Inicial</a></li>
+                <li class="li-nav-top"><a href="#educacao">Educação</a></li>
+                <li class="li-nav-top"><a href="#ferramentas">Ferramentas</a></li>
+                <li class="li-nav-top"><a href="#projetos">Projetos</a></li>
             </ul>
         </nav>
     </div>
-    <main>
-        <div id="div01">
-            <div id="div1">
-                <h2>Sobre mim</h2>
-            </div>
-        </div>
-       
 
-        <div id="div2">
+    <main>
+        <aside>
+            <div id="moldura-aside">
+                <div id="img-aside">
+                    <img src="img/rafikicard1.jpg" width="150px">
+                    <img src="img/rafikicard2.jpg" width="150px">
+                </div>
+
+                <h2>Informações adicionais</h2>
+                <p></p>
+            </div>
+        </aside>
+
+        <section>
             
-            <h2>Ferramentas</h2>
-            <div class="div-img">
+            <h2 id="ferramentas">Ferramentas</h2>
+            <div class="ferramentas">
                 
                 <img src="img/html.png" alt="HTML5" width="100px">
                 <img src="img/css-3.png" alt="CSS3" width="100px">
                 <img src="img/script-java.png" alt="JavaScript" width="100px">
             </div>
-            <br><br><br><br><br><br>
 
-            <h2>Educação</h2>
-            <div class="div">
-                <p>working...</p>
-                <br><br><br><br><br>
-                <br><br><br><br><br>
-                <br><br><br><br><br>
-                <br><br><br><br><br>
+            <h2 id="educacao">Educação</h2>
+            <div class="educacao">
+                <ul>
+                    <li><span>2023</span> - Programadores Cariocas - SENAC/Resilia/Prefeitura do Rio de Janeiro (concluído)</li>
+                    <li><span>2024</span> - Análise e Desenvolvimento de Sistemas - Faculdade Infnet (em andamento)</li>
+                    <li><span>2024</span> - Hackers do Bem - Programa de cibersegurança do governo (em andamento)</li>
+                </ul>
             </div>
 
-            <h2>Projetos</h2>
-            <div class="div">
-                <p>working...</p>
+            <h2 id="projetos">Projetos</h2>
+            <div class="projetos">
+                <p><a href="#">Projeto de Bloco I - Desenvolvimento Front-End</a></p>
+                <p><a href="#">Projeto de Bloco II - Desenvolvimento Front-End</a></p>
+                <p><a href="#">Projeto de Bloco I - Desenvolvimento Java</a></p>
+                <p><a href="#">Projeto de Bloco II - Desenvolvimento Java</a></p>
+                <p><a href="#">Projeto de Bloco I - Desenvolvimento .NET</a></p>
+                <p><a href="#">Projeto de Bloco II - Desenvolvimento .NET</a></p>
+                <p><a href="#">Projeto de Bloco I - Arquitetura de Computadores, Redes e SO</a></p>
+                <p><a href="#">Projeto de Bloco II - Arquitetura de Computadores, Redes e SO</a></p>
+                <p><a href="#">Projeto de Bloco I - Desenvolvimento Android</a></p>
+                <p><a href="#">Projeto de Bloco II - Desenvolvimento Android</a></p>
             </div>
-            <br><br><br><br><br><br><br>
-            <br><br><br><br><br><br><br>
-        </div>
-        </div>
+        </section>
     </main>
     
     <hr>
