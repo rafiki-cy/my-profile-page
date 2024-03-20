@@ -2,8 +2,6 @@ body {
     font-family: 'Courier New', Courier, monospace;
     height: 100vh;
     margin: 0;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 header .nav-header {
@@ -111,20 +109,21 @@ section {
 
 .box-quotes {
     display: flex;
-    align-items: baseline;
     flex-wrap: wrap;
+    padding: 30px;
     
 }
 
 .quote {
     text-align: center;
-    padding: 50px;
+    padding: 15px;
+    font-size: 0.8rem;
     border: 3px solid #ffffff;
     box-shadow: 3px 3px 3px #ffffff8c;
-    height: 300px;
-    width: 300px;
-    margin: auto;
-    margin-bottom: 20px;
+    height: auto;
+    width: 400px;
+    margin: 15px;
+    /* margin-bottom: 20px; */
     align-content: center;
 }
 
@@ -153,13 +152,20 @@ section {
     padding: 30px;   
 }
 
-.list {
-    width: 500px;
-    height: 50px;
+#list-c {
+    display: flex;
+    justify-content: center;
+}
+
+.list-item {
+    display: flex;
     text-align: center;
+    align-items: center;
+    padding: 5px;
+    width: 200px;
+    height: 100px; 
     margin: 5px;
     border: 1px solid black;
-    box-sizing: border-box;
     list-style: none;
 
 }
