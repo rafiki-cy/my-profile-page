@@ -118,12 +118,13 @@ section {
 
 .quote {
     text-align: center;
-    padding: 10px;
+    padding: 50px;
     border: 3px solid #ffffff;
     box-shadow: 3px 3px 3px #ffffff8c;
     height: 300px;
     width: 300px;
     margin: auto;
+    margin-bottom: 20px;
     align-content: center;
 }
 
