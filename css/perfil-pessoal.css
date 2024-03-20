@@ -2,7 +2,8 @@ body {
     font-family: 'Courier New', Courier, monospace;
     height: 100vh;
     margin: 0;
-    display: table-row;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 header .nav-header {
@@ -109,18 +110,21 @@ section {
 }
 
 .box-quotes {
-    display: auto;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    
 }
 
 .quote {
-    margin-right: 2px;
     text-align: center;
     padding: 10px;
     border: 3px solid #ffffff;
     box-shadow: 3px 3px 3px #ffffff8c;
-    height: 100%;
-    margin-bottom: 50px
-    
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    align-content: center;
 }
 
 .nav-pages {
@@ -128,7 +132,7 @@ section {
    text-align: center;
    display: flex;
    margin: auto;
-   flex-wrap:nowrap;
+   flex-wrap: nowrap;
    width: min-content;
 }
 
