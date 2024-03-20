@@ -125,8 +125,11 @@ section {
 
 .nav-pages {
    height: 100px;
-   align-content: center;
    text-align: center;
+   display: flex;
+   margin: auto;
+   flex-wrap:nowrap;
+   width: min-content;
 }
 
 .nav-pages a {
