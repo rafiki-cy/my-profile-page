@@ -69,13 +69,17 @@ aside {
     margin-left: 12px;
 }
 
+aside h2 {
+    text-align: center;
+}
+
 #moldura-aside {
     background-color: black;
     border: 2px solid white;
     padding: 70px;
     color: white;
     width: 400px;
-    height: 100vh;
+    height: 70vh;
 }
 
 #img-aside {
